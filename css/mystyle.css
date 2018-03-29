@@ -1,0 +1,34 @@
+p {font-size: 17px;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+h2 {
+  color:darkblue;
+}
+h3 {
+  color:darkblue;
+}
+
+td {text-align: center; }
+/* figcaption {text-align: center; position: inherit;} */
+ul {font-size: 17px;}
+ol {font-size: 17px;}
+th:nth-child(3), td:nth-child(3){border-right: 2px solid #ddd}
+/* table {border-style:solid; } */
+/* .table-a */
+ table{border: 2px solid #ddd}
+
+ .news{
+    color:red;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.jumbotron {
+    background: url('../DLPR_logo3.jpg');
+    background-size: cover;
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /*min-height: 300px;*/
+    /* filter:alpha(opacity=60); */
+    /* opacity: 0.6; */
+  }
